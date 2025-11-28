@@ -1,0 +1,21 @@
+name: Code Check
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  mypy:
+    runs-on: ubuntu-latest
+    name: Type and Lint check
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Node
+      uses: actions/setup-node@v5
+      with:
+        node-version: '20'
+        cache: 'npm'
+    - name: Install dependencies
+      run: |
+        npm ci
+    - name: Run lint check
+      run: |
+        npm run lint

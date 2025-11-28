@@ -5,7 +5,7 @@ const HowItWorksSection = () => {
       className="py-20 bg-gradient-to-br from-green-50 to-yellow-50"
     >
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16" style={{opacity: 1, transform: 'none'}}>
+        <div className="text-center mb-16" style={{opacity: 1, transform: "none"}}>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             From Search to Connection —{" "}
             <span className="text-green-600">Made Simple</span>
@@ -14,7 +14,7 @@ const HowItWorksSection = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div
             className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
-            style={{opacity: 1, transform: 'none'}}
+            style={{opacity: 1, transform: "none"}}
           >
             <div className="bg-green-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
               <svg
@@ -40,7 +40,7 @@ const HowItWorksSection = () => {
           </div>
           <div
             className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
-            style={{opacity: 1, transform: 'none'}}
+            style={{opacity: 1, transform: "none"}}
           >
             <div className="bg-yellow-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
               <svg
@@ -69,7 +69,7 @@ const HowItWorksSection = () => {
           </div>
           <div
             className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
-            style={{opacity: 1, transform: 'none'}}
+            style={{opacity: 1, transform: "none"}}
           >
             <div className="bg-green-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
               <svg
