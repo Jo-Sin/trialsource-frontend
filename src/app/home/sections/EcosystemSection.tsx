@@ -4,7 +4,7 @@ const EcosystemSection = () => {
       <div className="container mx-auto px-6">
         <div
           className="text-center max-w-3xl mx-auto"
-          style={{opacity: 1, transform: 'none'}}
+          style={{opacity: 1, transform: "none"}}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Part of the <span className="text-green-600">Trialio Ecosystem</span>
@@ -19,9 +19,9 @@ const EcosystemSection = () => {
             >
               Trialio
             </a>
-            , an AI-driven research platform that helps sites and sponsors
+            {`, an AI-driven research platform that helps sites and sponsors
             accelerate trial recruitment. Together, we're transforming how
-            clinical research connects with the people who need it most.
+            clinical research connects with the people who need it most.`}
           </p>
           <div className="inline-block bg-white rounded-2xl px-8 py-4 shadow-lg">
             <span className="text-2xl font-bold text-gray-900">Trialio</span>

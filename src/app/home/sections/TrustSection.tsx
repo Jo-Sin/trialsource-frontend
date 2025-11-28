@@ -2,14 +2,14 @@ const TrustSection = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16" style={{opacity: 1, transform: 'none'}}>
+        <div className="text-center mb-16" style={{opacity: 1, transform: "none"}}>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Designed for People.{" "}
             <span className="text-green-600">Built on Trust.</span>
           </h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="text-center group" style={{opacity: 1, transform: 'none'}}>
+          <div className="text-center group" style={{opacity: 1, transform: "none"}}>
             <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ const TrustSection = () => {
               Verified data from trusted registries.
             </p>
           </div>
-          <div className="text-center group" style={{opacity: 1, transform: 'none'}}>
+          <div className="text-center group" style={{opacity: 1, transform: "none"}}>
             <div className="bg-yellow-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ const TrustSection = () => {
               Encrypted and privacy-focused.
             </p>
           </div>
-          <div className="text-center group" style={{opacity: 1, transform: 'none'}}>
+          <div className="text-center group" style={{opacity: 1, transform: "none"}}>
             <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ const TrustSection = () => {
               Designed for all communities and health backgrounds.
             </p>
           </div>
-          <div className="text-center group" style={{opacity: 1, transform: 'none'}}>
+          <div className="text-center group" style={{opacity: 1, transform: "none"}}>
             <div className="bg-yellow-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

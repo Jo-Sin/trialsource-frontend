@@ -14,23 +14,23 @@ const ConnectionSection = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div
           className="text-center max-w-3xl mx-auto"
-          style={{opacity: 1, transform: 'none'}}
+          style={{opacity: 1, transform: "none"}}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Every Connection Could{" "}
             <span className="text-green-600">Save a Life</span>
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed mb-8">
-            Behind every clinical trial is a story of hope. Trialsource bridges
+            {`Behind every clinical trial is a story of hope. Trialsource bridges
             the gap between groundbreaking research and the people who need it
             most. Together, we're creating a future where medical innovation
-            reaches everyone.
+            reaches everyone.`}
           </p>
           <div className="bg-white rounded-3xl p-8 shadow-xl">
             <p className="text-lg text-gray-700 italic leading-relaxed">
-              "Access to clinical trials shouldn't be a privilege. It should be
+              {`"Access to clinical trials shouldn't be a privilege. It should be
               a right. Every patient deserves the opportunity to explore new
-              treatments and contribute to medical progress."
+              treatments and contribute to medical progress."`}
             </p>
           </div>
         </div>
