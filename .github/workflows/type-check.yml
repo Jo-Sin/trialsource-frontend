@@ -5,7 +5,7 @@ on:
 jobs:
   mypy:
     runs-on: ubuntu-latest
-    name: Type and Lint check
+    name: Lint check
     steps:
     - uses: actions/checkout@v4
     - name: Set up Node
