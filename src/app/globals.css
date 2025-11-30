@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.tsrc-container:nth-child(even) {
+    @apply overflow-hidden bg-gradient-to-br from-green-50 via-yellow-50 to-white;
+}
