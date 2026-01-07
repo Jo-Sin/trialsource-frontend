@@ -1,0 +1,80 @@
+{
+  "id": 1216,
+  "nct_id": "NCT06565442",
+  "last_update_post_date": "2025-12-26",
+  "brief_title": "Feasibility of Using NeuraSignal Transcranial Doppler Robot",
+  "official_title": "Feasibility of Using NeuraSignal Transcranial Doppler Robot for Generating Cerebral Autoregulation Curves in Neuro ICU Patients Admitted for Blood Pressure Management After Spinal Surgery",
+  "organization": "University of Alabama at Birmingham",
+  "overall_status": "NOT_YET_RECRUITING",
+  "start_date": "2026-02-15",
+  "completion_date": "2027-12-15",
+  "lead_sponsor": "University of Alabama at Birmingham",
+  "collaborators": null,
+  "brief_summary": "The purpose of this study is to determine the feasibility of using the NeuraSignal transcranial doppler robot in a neuro ICU setting to measure cerebral blood flow correlated with arterial blood pressure to generate individualized cerebral autoregulatory curves",
+  "detailed_description": "This study aims to explore the feasibility of using the NeuraSignal transcranial doppler robot to generate cerebral autoregulation curves in adult patients admitted to the neuro ICU with a newly diagnosed brain mass. Cerebral blood flow measurements as calculated by a transcranial doppler robot will be time-correlated with arterial blood pressure measurements to generate personalized cerebral autoregulation curves. The study will be conducted prospectively and observationally on 20 patients as a pilot study for feasibility management.\n\nCerebral autoregulation has historically been difficult to quantify, in part due to the difficulty in measuring cerebral blood flow directly. Transcranial doppler (TCD) is a well-established method of calculating cerebral blood flow based on velocity through the middle cerebral arteries, however traditional methods of performing TCD are time consuming and require technical and procedural training. It also carries the established risk of miscalculation with variation in intra-operator technique differences and miscalculations due to inappropriate angle of the probe. The NeuraSignal transcranial doppler robot offers a potential tool to make obtaining cerebral blood flow calculations easier and, with the use of AI to determine optimal windows, significantly decreases intra-operator differences and errors associated with inappropriate probe angle. Cerebral blood flow calculated in this way can then be correlated with arterial blood pressure and used to build cerebral autoregulatory curves in near real time. This study aims to build on previous studies deriving and using personalized cerebral autoregulatory curves and determine the feasibility of using the TCD robot in this way to make individualized cerebral autoregulatory curves more accessible as a tool for personalized blood pressure management.",
+  "study_type": "OBSERVATIONAL",
+  "conditions": [
+    "Cerebral Autoregulation"
+  ],
+  "condition_keywords": null,
+  "phases": null,
+  "target_duration": null,
+  "allocation": null,
+  "intervention_model": null,
+  "intervention_model_description": null,
+  "primary_purpose": null,
+  "observational_model": "COHORT",
+  "time_perspective": "PROSPECTIVE",
+  "masking": null,
+  "masking_description": null,
+  "who_masked": null,
+  "biospec_description": null,
+  "biospec_retention": null,
+  "enrollment_count": 20,
+  "enrollment_type": "ESTIMATED",
+  "intervention_type": [
+    "DEVICE"
+  ],
+  "intervention_name": [
+    "NeuraSignal transcranial doppler robot"
+  ],
+  "intervention_description": [
+    "measure cerebral blood flow correlated with arterial blood pressure to generate individualized cerebral autoregulatory curves"
+  ],
+  "primary_outcome_measure": [
+    "Primary outcome"
+  ],
+  "primary_outcome_description": [
+    "Cerebral autoregulatory curve generation using the NeuraSignal transcranial doppler robot correlated with arterial blood pressure measurements in neuro ICU patients admitted for blood pressure management after spinal surgery"
+  ],
+  "primary_outcome_timeframe": [
+    "one year"
+  ],
+  "secondary_outcome_measure": [
+    "Secondary outcome"
+  ],
+  "secondary_outcome_description": [
+    "left or right shifting of the autoregulatory curve as a result of vasopressor use"
+  ],
+  "secondary_outcome_timeframe": [
+    "one year"
+  ],
+  "other_outcome_measure": null,
+  "other_outcome_description": null,
+  "other_outcome_timeframe": null,
+  "eligibility_criteria": "Inclusion Criteria:\n\n* 18-89\n* Patients admitted to the Neuro ICU for blood pressure management (MAP management) after spinal surgery\n\nExclusion Criteria:\n\n* Patients under 18 years (or bodyweight \\\u003C50kg if age unknown),\n* prisoners\n* pregnant women,\n* non-English speaking,\n* patients enrolled in concurrent\n* ongoing interventional trial\n* students of UAB\n* employees of UAB\n* targeting specific populations\n* patients with previously diagnosed brain pathology\n* patients with open wounds over temporal bones precluding transcranial doppler",
+  "eligibility_healthy_volunteers": false,
+  "eligibility_gender_based": null,
+  "eligibility_sex": "ALL",
+  "eligibility_gender_description": null,
+  "eligibility_minage": "18 Years",
+  "eligibility_maxage": "89 Years",
+  "eligibility_stdages": [
+    "ADULT",
+    "OLDER_ADULT"
+  ],
+  "eligibility_study_population": "Patients admitted to the Neuro ICU for blood pressure management (MAP management) after spinal surgery",
+  "eligibility_sampling_method": "NON_PROBABILITY_SAMPLE",
+  "central_contact_name": null,
+  "central_contact_email": null
+}

@@ -6,7 +6,7 @@ import type { components } from "@/lib/api-types"
 import { api } from "@/lib/client"
 import { useCallback, useEffect, useState } from "react"
 
-type PagedTrials = components["schemas"]["PagedGenTrialBrief"]
+type PagedTrials = components["schemas"]["PagedClinTrialBrief"]
 
 const TrialsPage = () => {
     const [trials, setTrials] = useState<PagedTrials>();
@@ -15,7 +15,7 @@ const TrialsPage = () => {
 
     const loadTrials = useCallback(async () => {
 		try {
-			const { data } = await api.GET("/api/trials", {params: {query: { limit: 20}}});
+			const { data } = await api.GET("/api/clin-trials", {params: {query: { limit: 20}}});
 			setTrials(data);
 			setError(null);
 		} catch (err) {

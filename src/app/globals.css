@@ -19,6 +19,10 @@
   }
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -27,4 +31,14 @@ body {
 
 .tsrc-container:nth-child(even) {
     @apply overflow-hidden bg-gradient-to-br from-green-50 via-yellow-50 to-white;
+}
+
+table thead tr {
+  @apply bg-emerald-600 text-white;
+}
+table tbody tr:nth-child(even) {
+    @apply bg-green-200;
+}
+table tbody tr:nth-child(odd) {
+    @apply bg-green-100;
 }
