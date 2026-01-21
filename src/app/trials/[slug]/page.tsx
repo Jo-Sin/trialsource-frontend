@@ -26,14 +26,16 @@ const TrialPage = () => {
 		} finally {
 			setLoading(false);
 		}
-	}, []);
+	}, [params.slug]);
 
-    useEffect(() => { loadTrial(); }, [loadTrial, params])
+    useEffect(() => { loadTrial(); }, [loadTrial, params.slug])
     // useEffect(() => { console.log('trial', trial) }, [trial])
 
     return (
         <div>
             <Container>
+                {loading ? (<p>Loading...</p>) :
+                error ? (<p>{error}</p>) : (
                 <table className="border border-sm">
                     <thead>
                     <tr>
@@ -52,6 +54,7 @@ const TrialPage = () => {
                     })}
                     </tbody>
                 </table>
+                )}
             </Container>
         </div>
     )

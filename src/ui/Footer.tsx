@@ -1,6 +1,5 @@
 'use client';
 
-import { scrollToElement } from "@/lib/utils";
 import Link from "next/link";
 
 const Footer = () => {
@@ -18,13 +17,13 @@ const Footer = () => {
           </div>
           <nav className="flex flex-wrap gap-6 md:justify-end items-start">
             <a
-              href="#home"
+              href="/"
               className="text-gray-700 hover:text-green-600 transition-colors duration-300 font-medium"
             >
               Home
             </a>
             <a
-              href="#find-trial"
+              href="/find-trials"
               className="text-gray-700 hover:text-green-600 transition-colors duration-300 font-medium"
             >
               Find a Trial
