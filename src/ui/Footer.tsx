@@ -16,18 +16,18 @@ const Footer = () => {
             </p>
           </div>
           <nav className="flex flex-wrap gap-6 md:justify-end items-start">
-            <a
+            <Link
               href="/"
               className="text-gray-700 hover:text-green-600 transition-colors duration-300 font-medium"
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
               href="/find-trials"
               className="text-gray-700 hover:text-green-600 transition-colors duration-300 font-medium"
             >
               Find a Trial
-            </a>
+            </Link>
             <Link
               href="/#how-it-works"
               className="text-gray-700 hover:text-green-600 transition-colors duration-300 font-medium"

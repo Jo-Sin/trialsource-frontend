@@ -7,6 +7,7 @@ import { api } from "@/lib/client"
 import { useCallback, useState } from "react"
 // import tdata from '@/lib/dummy-trials.json'
 import { PAGINATE_LIMIT } from "@/lib/utils"
+import Link from "next/link"
 
 type PagedTrials = components["schemas"]["PagedGenTrialBrief"]
 
@@ -36,10 +37,10 @@ const FindTrialsPage = () => {
             <Container>
                 <h1 className="text-4xl my-8">Find Trials</h1>
 
-                <a className="text-green-600 hover:text-green-700 focus:text-green-700" href="/find-trials">Find Trials</a><br />
-                <a className="text-green-600 hover:text-green-700 focus:text-green-700" href="/trials">Generalized Trials</a><br />
-                <a className="text-green-600 hover:text-green-700 focus:text-green-700" href="/trials/anzctr">ANZCTR Trials</a><br />
-                <a className="text-green-600 hover:text-green-700 focus:text-green-700" href="/trials/clintrials">ClinicalTrials.gov Trials</a>
+                <Link className="text-green-600 hover:text-green-700 focus:text-green-700" href="/find-trials">Find Trials</Link><br />
+                <Link className="text-green-600 hover:text-green-700 focus:text-green-700" href="/trials">Generalized Trials</Link><br />
+                <Link className="text-green-600 hover:text-green-700 focus:text-green-700" href="/trials/anzctr">ANZCTR Trials</Link><br />
+                <Link className="text-green-600 hover:text-green-700 focus:text-green-700" href="/trials/clintrials">ClinicalTrials.gov Trials</Link>
 
                 <form className="h-10 my-8" onSubmit={(e) => {e.preventDefault(); setSearchPage(1); loadTrials();}}>
                     <input
