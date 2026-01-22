@@ -4,12 +4,12 @@ import Container from "@/ui/Container"
 import PaginateLinks from "@/ui/Paginate/PaginateLinks"
 import type { components } from "@/lib/api-types"
 import { api } from "@/lib/client"
-import { useCallback, useState, useEffect } from "react"
+import { useCallback, useState } from "react"
 // import tdata from '@/lib/dummy-trials.json'
 import { PAGINATE_LIMIT } from "@/lib/utils"
 import Link from "next/link"
-import '@n8n/chat/style.css';
-import { createChat } from '@n8n/chat';
+// import '@n8n/chat/style.css';
+// import { createChat } from '@n8n/chat';
 
 type PagedTrials = components["schemas"]["PagedGenTrialBrief"]
 
@@ -34,11 +34,11 @@ const FindTrialsPage = () => {
 		}
 	}, [searchText]);
 
-    useEffect(() => {
-		createChat({
-			webhookUrl: process.env.NEXT_PUBLIC_N8N_URL
-		});
-	}, []);
+    // useEffect(() => {
+	// 	createChat({
+	// 		webhookUrl: process.env.NEXT_PUBLIC_N8N_URL
+	// 	});
+	// }, []);
 
     return (
         <div>
