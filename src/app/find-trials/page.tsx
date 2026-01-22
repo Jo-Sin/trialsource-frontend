@@ -8,6 +8,8 @@ import { useCallback, useState } from "react"
 // import tdata from '@/lib/dummy-trials.json'
 import { PAGINATE_LIMIT } from "@/lib/utils"
 import Link from "next/link"
+// import '@n8n/chat/style.css';
+// import { createChat } from '@n8n/chat';
 
 type PagedTrials = components["schemas"]["PagedGenTrialBrief"]
 
@@ -31,6 +33,12 @@ const FindTrialsPage = () => {
 			setLoading(false);
 		}
 	}, [searchText]);
+
+    // useEffect(() => {
+	// 	createChat({
+	// 		webhookUrl: process.env.NEXT_PUBLIC_N8N_URL
+	// 	});
+	// }, []);
 
     return (
         <div>
